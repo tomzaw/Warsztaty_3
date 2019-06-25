@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Warsztaty_3">
+    <Resource name="jdbc/bootcamp"
+        auth="container"
+        type="javax.sql.DataSource"
+        username="root"
+        password="root"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        connectionProperties="useUnicode=yes;characterEncoding=utf8;serverTimezone=UTC;allowPublicKeyRetrieval=true"
+        url="jdbc:mysql://localhost:3306/bootcamp"
+        maxTotal="100"
+        maxIdle="30"
+        maxWaitMillis="10000"/>
+</Context>
